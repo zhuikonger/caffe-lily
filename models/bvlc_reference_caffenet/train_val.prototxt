@@ -390,6 +390,9 @@ layer {
   include {
     phase: TEST
   }
+  accuracy_param{
+	top_k:5
+  }
 }
 layer {
   name: "loss"
